@@ -70,24 +70,19 @@ background-color: rgb(193, 193, 193); }
 body {
     overflow: hidden;
 }
-
-body:hover {
-    overflow-y: auto;
-}
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    transition: background 0.3s ease;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: rgba(0, 0, 0, 0.5);
 }
-
 a {
   color: inherit; }
 
