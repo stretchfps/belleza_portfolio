@@ -82,6 +82,7 @@ body:hover {
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
+    transition: background 0.3s ease;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
