@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a6a3a930e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@17/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <title>Belleza Photography</title>
+</head>
+<body>
+    <div class="container">
+        <!--navigation-->
+        <div class="nav-wrapper" id="nav-wrapper">
+            <nav class="nav" id="fixed-header">
+                <ul class="nav_items">
+                    <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#portfolio" class="nav_link">Portfolio</a></li>
+                    <li class="nav_item"><a href="#gallery" class="nav_link">Gallery</a></li>
+
+                    <li class="nav_item-logo"><a href="#">Belleza</a></li>
+
+                    <li class="nav_item"><a href="#testimonials" class="nav_link">Testimonials</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header class="slider">
+            <div class="slideshow_slide slideshow_slide-1 fade">
+                <div class="slideshow_slide-overlay"></div>
+            </div>
+            <div class="slideshow_slide slideshow_slide-2 fade">
+                <div class="slideshow_slide-overlay"></div>
+            </div>
+            <div class="slideshow_slide slideshow_slide-3 fade">
+                <div class="slideshow_slide-overlay"></div>
+            </div>
+            <div class="slideshow_slide slideshow_slide-4 fade">
+                <div class="slideshow_slide-overlay"></div>
+            </div>
+            <div class="slideshow_slide slideshow_slide-5 fade">
+                <div class="slideshow_slide-overlay"></div>
+            </div>
+            <div class="slide-text">
+                <h2>WE WILL MAKE YOUR SPECIAL DAY MEMORABLE.</h2>
+                <p>Pre-Wedding | Wedding | Couple</p>
+            </div>
+        </header>
+        <main class="main-section">
+            <!--Portfolio-->
+            <section class="portfolio-section" id="portfolio">
+                <h2 class="portfolio-header">Portfolio</h2>
+                <div class="portfolio">
+                    <div class="portfolio_column">
+                        <img src="https://images.unsplash.com/photo-1616000998794-91703e0a6be1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(1)">
+                        <img src="https://images.unsplash.com/photo-1597427681188-3ef80f2631ff?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(2)">
+                        <img src="https://images.unsplash.com/photo-1619644918254-fa5d69bd17be?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(3)">
+                        <img src="https://images.unsplash.com/photo-1512060847456-85a2a1bf8b25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(4)">
+                        <img src="https://images.unsplash.com/photo-1624592338313-8fada8da6f75?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(5)">
+                    </div>
+                    <div class="portfolio_column">
+                        <img src="https://images.unsplash.com/photo-1626779041097-7bceb24b5af3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(1)">
+                        <img src="https://images.unsplash.com/photo-1620649736724-1f18a4a90e84?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(2)">
+                        <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(3)">
+                        <img src="https://images.unsplash.com/photo-1712189178117-8c4b25bb9221?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(4)">
+                        <img src="https://images.unsplash.com/photo-1613995950786-b768af5cfe09?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(5)">
+                    </div>
+                    <div class="portfolio_column">
+                        <img src="https://images.unsplash.com/photo-1596474971501-810dcd1218a7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(1)">
+                        <img src="https://images.unsplash.com/photo-1427477321886-abc24e8ce923?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(2)">
+                        <img src="https://images.unsplash.com/photo-1600038937815-57cbbba6ba7d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(3)">
+                        <img src="https://images.unsplash.com/photo-1549866654-c5ba7fdab71e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(4)">
+                        <img src="https://images.unsplash.com/photo-1521922696736-504860d305ab?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(5)">
+                    </div>
+                    <div class="portfolio_column">
+                        <img src="https://images.unsplash.com/photo-1548421693-a261d3372e8f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(1)">
+                        <img src="https://images.unsplash.com/photo-1699211242423-6a1317712b7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(2)">
+                        <img src="https://images.unsplash.com/photo-1562616293-1a11a7816903?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(3)">
+                        <img src="https://images.unsplash.com/photo-1548184383-dd76100cb05c?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(4)">
+                        <img src="https://images.unsplash.com/photo-1481980235850-66e47651e431?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolio photo" class="portfolio-img" onclick="openModal();currentLBSlide(5)">
+                    </div>
+                </div>
+            </section>
+            <!--Gallery-->
+            <section class="gallery-section" id="gallery">
+                <h2 class="gallery-section_header">Gallery</h2>
+                <div class="gallery">
+
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1578855412821-487fe1a06456?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-1"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Max & Julia</h3>
+                                <p class="gallery-text">Pre-Wedding photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1550715262-ece4c8bc4ce2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-2"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Andre & Perry</h3>
+                                <p class="gallery-text">Pre-Wedding photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1570222789750-d0fafd212fec?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-3"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Tony & Pepper</h3>
+                                <p class="gallery-text">Pre-Wedding photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1523197151243-468ec84f881d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-4"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Shruti & Rohan</h3>
+                                <p class="gallery-text">Wedding photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1634157014713-23e5cd60b674?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-5"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Bruce & Natahsa</h3>
+                                <p class="gallery-text">Wedding photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1686294589305-61b678eb7004?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-6"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Abhoy & Aarti</h3>
+                                <p class="gallery-text">Wedding photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1707321424964-826651aeede3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-7"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Evans & Chloe</h3>
+                                <p class="gallery-text">Couple photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1712189177911-0e71a2f7dace?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-8"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Zach & Chelsea</h3>
+                                <p class="gallery-text">Engagement photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="gallery-item-wrapper">
+                        <div class="gallery_item">
+                            <img src="https://images.unsplash.com/photo-1617335048933-4efb94f812f7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                alt="gallery-9"
+                                sizes="(max-width: 1200px) 100vw, 1200px" class="gallery_img">
+                            <div class="gallery-text-box">
+                                <h3 class="gallery-caption">Sanchit & Bhawna</h3>
+                                <p class="gallery-text">Couple photo session</p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Testimonials-->
+            <section class="testimonial-section" id="testimonials">
+                <h2 class="testimonial-section-header">Testimonials</h2>
+                <div class="testimonial-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial">
+                        <div class="testimonial-text">
+                            <h3>John & Emily</h3>
+                            <p>"We couldn't be happier with the stunning photos captured by Belleza Photography. They perfectly captured the emotions and joy of our special day. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-image">
+                            <img src="https://images.unsplash.com/photo-1513649208202-f98e37d3b259?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="John & Emily">
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial">
+                        <div class="testimonial-text">
+                            <h3>Michael & Sarah</h3>
+                            <p>"Working with Belleza Photography was an absolute pleasure. They made us feel comfortable in front of the camera and delivered breathtaking photos that we will cherish forever."</p>
+                        </div>
+                        <div class="testimonial-image">
+                            <img src="https://images.unsplash.com/photo-1508219803418-5f1f89469b50?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Michael & Sarah">
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial">
+                        <div class="testimonial-text">
+                            <h3>David & Jessica</h3>
+                            <p>"The professionalism and attention to detail from Belleza Photography exceeded our expectations. We are so grateful for the beautiful memories they captured on our wedding day."</p>
+                        </div>
+                        <div class="testimonial-image">
+                            <img src="https://images.unsplash.com/photo-1503314788108-b88cc7bf068e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="David & Jessica">
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial navigation arrows -->
+                <div class="testimonial-nav">
+                    <button class="prev-btn" onclick="prevTestimonial()">&#10094;</button>
+                    <button class="next-btn" onclick="nextTestimonial()">&#10095;</button>
+                </div>
+            </section>
+            <!--About-->
+            <secion class="about-section" id="about">
+                <div class="about">
+                    <div class="about-photo"></div>
+                    <div class="about-text">
+                        <h2 class="about-header">About Me</h2>
+                        <p>Hi, I'm Aakash</p>
+                        <p>I like simplicity, naturalness and minimalism in photography. I don't like awkward posing, but it helps me not to get lost. I try to capture moments that are unstaged, real, and the people in them are open.</p>
+                        <p>There is a lot of quiet time together during a photo shoot. My goal is for you to get not only beautiful photos, but also to remember a pleasant photo session experience. I want to give you memories to remind you of the emotions experienced that day, the unseen smiles, and the significant details of the celebration.</p>
+                        <p>I can't wait to meet you! We will meet over a cup of coffee and discuss the details of your celebration :)</p>
+                        <a href="#contact" class="section-link">Write to me</a>
+                    </div>
+                </div>
+            </secion>
+            <!--Contact-->
+            <section class="contact-section" id="contact">
+                <div class="contact">
+                  <div class="contact__part">
+                    <h2 class="contact__header">Contact Us</h2>
+                    <a class="contact__method-link" href="tel:+37067457838">
+                      <div class="contact__method-link-wrapper">
+                        <span class="contact__icon fa-solid fa-square-phone fa-2x"></span>
+                        <span class="contact__method-text">+91 87555 06142</span>
+                      </div>
+                    </a>
+                    <a class="contact__method-link" href="mailto:vaida.cek@gmail.com">
+                      <div class="contact__method-link-wrapper">
+                        <span class="contact__icon fa-solid fa-square-envelope fa-2x"></span>
+                        <span class="contact__method-text">contact@belleza.com</span>
+                      </div>
+                    </a>
+                    <div class="contact__spacer"></div>
+                    <h2 class="contact__header">You can find us</h2>
+                    <a class="contact__method-link" href="#">
+                      <div class="contact__method-link-wrapper">
+                        <span class="contact__icon fa-brands fa-instagram-square fa-2x"></span>
+                        <span class="contact__method-text">belleza_pictures</span>
+                      </div>
+                    </a>
+                    <a class="contact__method-link" href="#">
+                      <div class="contact__method-link-wrapper">
+                        <span class="contact__icon fa-brands fa-facebook-square fa-2x"></span>
+                        <span class="contact__method-text">belleza_pictures</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="contact__part">
+                    <h2 class="contact__header">Write to us</h2>
+                    <form action="#" method="POST" class="contact__form" id="contactForm">
+                      <div class="contact__form-field">
+                        <label class="contact__form-label" for="name">Your name:</label>
+                        <input class="contact__form-input contact__form-input--text" type="text" id="name" name="name" placeholder="name" required>
+                      </div>
+                      <div class="contact__form-field">
+                        <label class="contact__form-label" for="email">Your email:</label>
+                        <input class="contact__form-input contact__form-input--text" type="email" id="email" name="email" placeholder="abc@example.com" required>
+                      </div>
+                      <div class="contact__form-field">
+                        <label class="contact__form-label" for="message">Your message:</label>
+                        <textarea class="contact__form-input contact__form-input--text" id="message" name="message" rows="5" cols="50" required></textarea>
+                      </div>
+                      <div class="contact__form-field">
+                        <input class="contact__form-input contact__form-input--btn" type="submit" value="Send" id="submitBtn">
+                      </div>
+                      <span id="submitMsg">Your message has been sent successfully</span>
+                    </form>
+                  </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
