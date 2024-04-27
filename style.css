@@ -944,18 +944,20 @@ body {
     border: 1px solid green;
     padding: 0.5rem 1rem; }
   
-  @media screen and (min-width: 650px) {
+@media only screen and (max-width: 480px) {
+    .contact-section {
+        padding: 5vh 2vw;
+        margin: 3rem auto 0;
+    }
     .contact {
-      flex-direction: row; }
-      .contact__spacer {
-        height: 4rem; }
-      .contact__header {
-        margin-bottom: 2rem; }
-      .contact__method-link {
-        margin-bottom: 2rem; }
-      .contact__form-field:not(:last-child) {
-        margin-bottom: 2rem; }
-      .contact__part {
-        padding: 3rem 3rem; } }
+        width: 90%;
+    }
+    .contact__part {
+        padding: 2rem 1rem;
+    }
+    .contact__form-input--btn {
+        padding: 0.5rem 1.5rem;
+    }
+}
   
   
